@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Contact Form - PHP/MySQL Demo Code</title>
+    <link rel="stylesheet" href="cont.css">
+
+</head>
+
+<body>
+
+
+    <form name="frmContact" method="post" action="contact.php">
+
+        <div class="inputfield">
+            <p>
+
+                <input type="text" placeholder="Enter your name" name="txtName" id="txtName" required>
+            </p>
+        </div>
+        <div class="inputfield">
+            <p>
+                <input type="number" placeholder="Enter your  id number" name="txtID" id="txtID" required>
+            </p>
+
+        </div>
+        <div class="inputfield">
+            <p>
+
+                <input type="email" placeholder="Enter your email" name="txtEmail" id="txtEmail" required>
+            </p>
+        </div>
+        <div class="inputfield">
+            <p>
+
+                <input type="text" placeholder="Enter your block" name="txtBlock" id="txtBlock" required>
+            </p>
+        </div>
+        <div class="inputfield">
+            <p>
+
+                <input type="number" placeholder="Enter your Room" name="txtRoom" id="txtRoom" required>
+            </p>
+        </div>
+        <div class="inputfield">
+            <p>
+
+                <textarea name="txtMessage" placeholder="Raise concern" id="txtMessage" required></textarea>
+            </p>
+        </div>
+        <div class="inputfield">
+            <p>
+
+                <input type="number" placeholder="Enter your phone number" name="txtPhone" id="txtRoom" required>
+            </p>
+        </div>
+        <button type="submit">Give complain</button>
+    </form>
+
+</body>
+
+</html>

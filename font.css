@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(villa.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.forms {
+    position: absolute;
+}

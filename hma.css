@@ -1,0 +1,40 @@
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: teal;
+    min-height: 8vh;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Cambria, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: normal;
+    letter-spacing: normal;
+    line-height: 1.3em;
+    color: yellow;
+}
+
+nav a:hover {
+    text-decoration: none;
+    font-family: Cambria, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: normal;
+    letter-spacing: normal;
+    line-height: 1.3em;
+    color: #000;
+}
+
+nav ul form {
+    color: teal;
+}

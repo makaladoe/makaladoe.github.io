@@ -1,0 +1,22 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-image: url(villa.jpg);
+        background-position: center;
+        background-size: cover;
+        background-color: grey;
+    }
+    
+    p {
+        font-size: xx-large;
+        color: white;
+        float: right;
+    }
+    
+    .buttons {
+        margin: 20%;
+        size: 30px;
+    }

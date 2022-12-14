@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>login </title>
+
+    <script src="https://kit.fontawesome.com/4d0ca2a520.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="hosta.css">
+</head>
+
+<body>
+
+    <form action="hostauth.php" onsubmit="return validation()" method="POST">
+        <div class="inputfield">
+            <input type="email" placeholder="Enter email" name="Email" id="Email" required>
+        </div>
+        <div class="inputfield">
+            <input type="password" placeholder="enter password" name="password" id="password" required>
+
+        </div>
+        <a href="#">forgot password?</a>
+        <button type="submit" id="btn">log in</button>
+
+        <div class="icons">
+            <i class="fa-brands fa-chrome"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+
+    </form>
+
+
+    <script>
+        function validation() {
+            var id = document.f1.Email.value;
+            var ps = document.f1.password.value;
+            if (id.length == "" && ps.length == "") {
+                alert("Email and Password fields are empty");
+                return false;
+            } else {
+                if (id.length == "") {
+                    alert("Email is empty");
+                    return false;
+                }
+                if (ps.length == "") {
+                    alert("Password field is empty");
+                    return false;
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
